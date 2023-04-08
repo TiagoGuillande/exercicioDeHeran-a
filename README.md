@@ -1,1 +1,1 @@
-Exercicio de treinamento para Heranças em Java com POO.
+Exercicio de treinamento para Herança e polimorfismo em Java com POO.
