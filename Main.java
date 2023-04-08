@@ -30,6 +30,7 @@ public class Main {
         System.out.println("Telefone: " + empregado.getTelefone());
         System.out.println("COD Setor: " + empregado.getCodigoSetor());
         System.out.println("Salário Base: R$" + empregado.getSalarioBase());
+        System.out.println("Quanto paga de Imposto?: R$" + empregado.getImposto());
         System.out.println("Salario Final: R$" + empregado.calcularSalario());
         System.out.println("--------------------------------------------");
 
@@ -74,5 +75,26 @@ public class Main {
         System.out.println("Qual valor da sua Comissão?: R$" + operario.getComissao());
         System.out.println("Salario Final: R$" + operario.calcularSalario());
 
+        Vendedor vendedor = new Vendedor(
+                "Maria",
+                "Rua Matriz",
+                "89888855",
+                889988,
+                2500,
+                536,
+                1236,
+                236
+        );
+
+        System.out.println("--------------------------------------------");
+        System.out.println("Operario");
+        System.out.println("Nome: " + vendedor.getNome());
+        System.out.println("Endereço: " + vendedor.getEndereco());
+        System.out.println("Telefone: " + vendedor.getTelefone());
+        System.out.println("COD Setor: " + vendedor.getCodigoSetor());
+        System.out.println("Salário Base: R$" + vendedor.getSalarioBase());
+        System.out.println("Quanto paga de Imposto?: R$" + vendedor.getImposto());
+        System.out.println("Qual valor da sua Comissão?: R$" + vendedor.getComissao());
+        System.out.println("Salario Final: R$" + vendedor.calcularSalario());
     }
 }
